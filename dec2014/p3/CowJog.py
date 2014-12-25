@@ -1,3 +1,9 @@
+##########
+# USACO CONTEST 1 PROBLEM 3
+# SOLUTION BY BRANDON LIN
+# PYTHON 2.7.6
+##########
+
 def readin():
     f = open("cowjog.in",'r')
     s = f.read().split("\n")

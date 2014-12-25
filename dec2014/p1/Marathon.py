@@ -1,3 +1,8 @@
+##########
+# USACO CONTEST 1 PROBLEM 1
+# SOLUTION BY BRANDON LIN
+# PYTHON 2.7.6
+##########
 import sys
 
 # Reads in the file marathon.in.

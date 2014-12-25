@@ -1,3 +1,9 @@
+##########
+# USACO CONTEST 1 PROBLEM 2
+# SOLUTION BY BRANDON LIN
+# PYTHON 2.7.6
+##########
+
 def readin():
     f = open("crosswords.in",'r')
     s = f.read()
