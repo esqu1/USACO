@@ -33,17 +33,23 @@ while count < len(l):
             break;
         count2 = count + inc
         if find(l[count].split(),firstline[0]) != -1: # If we can find first city in first line
-            listofone = l[count][find(l[count].split(),firstline[0]):] # Make a list of everything afterwards
+            listofone = l[count].split()[find(l[count].split(),firstline[0]):] # Make a list of everything afterwards
             if find(l[count2].split(),firstline[1]) != -1: # If we can find second city in second line
-                listoftwo = l[count2][:find(l[count2].split(),firstline[1])] # make a list of everything beforehand
+                listoftwo = l[count2].split()[:find(l[count2].split(),firstline[1])] # make a list of everything beforehand
+                print listofone
+                print listoftwo
                 if len([i for i in listofone if i in listoftwo]) > 0 and int(l[count-1].split()[0]) + int(l[count2-1].split()[0]) < min:
                     min = int(l[count-1].split()[0]) + int(l[count2-1].split()[0]) # If we find a common city, make this the new min
+                    print min
         if find(l[count2].split(),firstline[0]) != -1: # Likewise
-            listofone = l[count2][find(l[count2].split(),firstline[0]):]
+            listofone = l[count2].split()[:find(l[count2].split(),firstline[0])]
             if find(l[count].split(),firstline[1]) != -1:
-                listoftwo = l[count][:find(l[count].split(),firstline[1])]
+                listoftwo = l[count].split()[find(l[count].split(),firstline[1]):]
+                print listofone
+                print listoftwo
                 if len([i for i in listofone if i in listoftwo]) > 0 and int(l[count-1].split()[0]) + int(l[count2-1].split()[0]) < min:
                     min = int(l[count-1].split()[0]) + int(l[count2-1].split()[0])
+                    print min
         
         inc += 2
     count += 2
