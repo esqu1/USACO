@@ -9,7 +9,7 @@ I started the contest (can't remember when exactly). After looking at #1, I had 
 
 I then proceeded to look at #2. This wasn't terribly bad, I thought. Coded the program for half an hour, then submitted. Crap, I thought, it didn't work for everything. Why? I attempted to waste 30 minutes trying to debug my solution. Alas, I gave up and moved onto #3.
 
-#3, if anything, was easier than #2. You don't even need the positions, just the velocities. I breezed through this problem pretty easily, then moved back to #2.
+3, if anything, was easier than #2. You don't even need the positions, just the velocities. I breezed through this problem pretty easily, then moved back to #2.
 
 At this point, I was ready to give up. I've tried everything I possibly could. An hour later, turns out my problem was that I only considered single-digit cases, not double digits. Bummer. As soon as I fixed this, it worked.
 

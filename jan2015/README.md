@@ -11,7 +11,7 @@ I can't loop through 15000? No problem! Just stop the loop early if I discover t
 
 Now onto #4. This was a pain for me, since it involved looking for the shortest path on a graph. I ended up resorting to a recursive solution after an hour of coding and debugging. 5 of my test cases timed out, and one was wrong. Disappointed, I moved back to #1.
 
-#1 was supposed to be easy... Heh, wasn't that easy the way I initially programmed it. I initially looked for the value within a string, using the find() function. Turns out I didn't account for when values like 245 and 2459 appear in the same list. After fixing that, I got all the caes, banged my head against my desk, and continued.
+1 was supposed to be easy... Heh, wasn't that easy the way I initially programmed it. I initially looked for the value within a string, using the find() function. Turns out I didn't account for when values like 245 and 2459 appear in the same list. After fixing that, I got all the caes, banged my head against my desk, and continued.
 
 I looked at #2 and fixed the same issue, but I could not fix those test cases no matter what I did.
 
