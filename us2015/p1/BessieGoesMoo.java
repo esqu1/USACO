@@ -2,13 +2,13 @@ import java.util.*;
 import java.io.*;
 
 public class BessieGoesMoo{
-    private static int[] B = new int[7];
-    private static int[] E = new int[7];
-    private static int[] S = new int[7];
-    private static int[] I = new int[7];
-    private static int[] G = new int[7];
-    private static int[] O = new int[7];
-    private static int[] M = new int[7];
+    private static long[] B = new long[7];
+    private static long[] E = new long[7];
+    private static long[] S = new long[7];
+    private static long[] I = new long[7];
+    private static long[] G = new long[7];
+    private static long[] O = new long[7];
+    private static long[] M = new long[7];
     private static long count = 0;
     
     public static int propermod(int a, int b){
