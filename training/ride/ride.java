@@ -5,7 +5,7 @@ TASK: ride
 */
 import java.util.*;
 import java.io.*;
-public class Ride{
+class ride{
     private static String comet, group;
 
     public static int convert(String s){
