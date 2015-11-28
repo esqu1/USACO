@@ -10,7 +10,7 @@ public class Ride{
 
     public static int convert(String s){
 	int i = 1;
-	for(int j = 0; j <= s.length(); j++){
+	for(int j = 0; j < s.length(); j++){
 	    char k = s.charAt(j);
 	    if(k <= 90 && k >= 65){
 		i *= (k - 64);
